@@ -1,0 +1,9 @@
+.textlogo {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.business-section {
+  display: flex;
+  justify-content: space-between;
+}

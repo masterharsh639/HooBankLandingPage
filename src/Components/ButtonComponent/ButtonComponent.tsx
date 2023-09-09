@@ -1,9 +1,17 @@
-import React from 'react'
-
-const ButtonComponent = () => {
-  return (
-    <div>ButtonComponent</div>
-  )
+import { Grid } from "@mui/material";
+import "./buttoncomponent.css";
+interface ButtonProps {
+  title: string;
 }
 
-export default ButtonComponent
+const ButtonComponent = ({ title }: ButtonProps) => {
+  return (
+    <Grid container xs={12}>
+      <Grid item className="button-css">
+        {title}
+      </Grid>
+    </Grid>
+  );
+};
+
+export default ButtonComponent;
