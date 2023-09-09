@@ -4,7 +4,7 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
-  line-height: 160%; /* 76.8px */
+  line-height: 160%;
   letter-spacing: 0.48px;
 }
 
@@ -14,15 +14,15 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 130%; /* 23.4px */
+  line-height: 130%;
   letter-spacing: 0.18px;
   text-transform: capitalize;
 }
 
-.h3-16 {
+.h3-18-grey {
   color: rgba(255, 255, 255, 0.7);
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -32,6 +32,23 @@
   background: #00040f;
 }
 
-.page-section{
-  padding: 4rem 2rem;
+.page-section {
+  padding:2rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .h3-18-grey {
+    font-size: 12px;
+    text-align: center;
+  }
+  .h2-18 {
+    font-size: 12px;
+    line-height: 80%;
+    text-align: center;
+  }
+  .h1-48 {
+    font-size: 32px;
+    line-height: 80%;
+    text-align: center;
+  }
 }

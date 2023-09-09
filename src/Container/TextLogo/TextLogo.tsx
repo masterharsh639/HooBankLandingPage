@@ -11,12 +11,12 @@ interface TextlogoProps {
 const TextLogo = ({ logo, title, paragraph }: TextlogoProps) => {
   return (
     <Grid container xs={12}>
-      <Grid xs={2} item>
-       <img src={logo} alt="" />
+      <Grid item xs={12} sm={2} md={2} className="textLogo">
+       <img src={logo} alt="logo1" />
       </Grid>
-      <Grid xs={10} item>
+      <Grid item xs={12} sm={10} md={10}>
         <Typography className="h2-18">{title}</Typography>
-        <Typography className="h3-16">{paragraph}</Typography>
+        <Typography className="h3-18-grey">{paragraph}</Typography>
       </Grid>
     </Grid>
   );

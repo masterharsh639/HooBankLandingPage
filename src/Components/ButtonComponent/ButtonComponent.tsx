@@ -8,7 +8,7 @@ const ButtonComponent = ({ title }: ButtonProps) => {
   return (
     <Grid container xs={12}>
       <Grid item className="button-css">
-        {title}
+        <p>{title}</p>
       </Grid>
     </Grid>
   );

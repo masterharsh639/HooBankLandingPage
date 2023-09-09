@@ -11,7 +11,7 @@ const PremiumHeading = ({ title, paragraph }: PremiumHeadingProps) => {
       <Grid item xs={12} className="h1-48">
         {title}
       </Grid>
-      <Grid item xs={12} className="h2-18">
+      <Grid item xs={12} className="h3-18-grey premium-para">
         {paragraph}
       </Grid>
     </Grid>

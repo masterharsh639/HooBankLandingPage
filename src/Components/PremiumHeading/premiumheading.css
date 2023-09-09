@@ -1,10 +1,5 @@
-/* .premiumHeading {
-  border-radius: 20px;
-  background: linear-gradient(
-    144deg,
-    #fff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
-  backdrop-filter: blur(5px);
-} */
+@media (min-width: 320px) and (max-width: 480px) {
+  .premium-para {
+    padding-bottom: 2rem;
+  }
+}
